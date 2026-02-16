@@ -1,6 +1,6 @@
 cask "contextbrief" do
   version "1.0.0"
-  sha256 "da323cfde3e711ec4ec8ec61655cbea7c105d0c45ee35aff4e279651889c29f0"
+  sha256 "220b336f4674541c4ebca437d225566b32848b3b6a80205583131bc35723bfed"
 
   url "https://github.com/semihcihan/contextbrief/releases/download/v1.0.0/ContextBrief.dmg"
   name "Context Brief"
