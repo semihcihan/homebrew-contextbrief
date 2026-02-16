@@ -1,8 +1,8 @@
 cask "contextbrief" do
-  version "1.0.0"
-  sha256 "220b336f4674541c4ebca437d225566b32848b3b6a80205583131bc35723bfed"
+  version "1.0.3"
+  sha256 "bdbe4917e387a934337eefe53808995d8150cb580da93e3c2fd5112df7d5e40c"
 
-  url "https://github.com/semihcihan/contextbrief/releases/download/v1.0.0/ContextBrief.dmg"
+  url "https://github.com/semihcihan/contextbrief/releases/download/v1.0.3/ContextBrief.dmg"
   name "Context Brief"
   desc "Local-first macOS menu bar app for collecting and densifying context"
   homepage "https://github.com/semihcihan/contextbrief"
@@ -10,10 +10,6 @@ cask "contextbrief" do
   depends_on macos: ">= :ventura"
 
   app "ContextBrief.app"
-
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/ContextBrief.app"]
-  end
 
   zap trash: [
     "~/Library/Application Support/ContextBrief",
