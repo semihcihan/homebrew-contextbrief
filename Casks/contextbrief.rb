@@ -1,8 +1,8 @@
 cask "contextbrief" do
-  version "1.0.7"
-  sha256 "d6ad500feed93e684947f607e9e24ca09d919ca1e73488f68f645c59466a6785"
+  version "1.0.8"
+  sha256 "f3049fa4ab0e71b2c70e9c6669559109a856d9051ee1cee726e970aa5276e00f"
 
-  url "https://github.com/semihcihan/contextbrief/releases/download/v1.0.7/ContextBrief.dmg"
+  url "https://github.com/semihcihan/contextbrief/releases/download/v1.0.8/ContextBrief.dmg"
   name "Context Brief"
   desc "Local-first macOS menu bar app for collecting and densifying context"
   homepage "https://github.com/semihcihan/contextbrief"
